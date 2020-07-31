@@ -1,0 +1,23 @@
+h1 {
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    text-emphasis-color: white; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 5.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+   margin-left: 50px;
+  }
+  
+  @keyframes typing {
+    from { width: 0 ;
+    text-color: black;}
+    to { width: 80%;
+        text-color: black; }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
